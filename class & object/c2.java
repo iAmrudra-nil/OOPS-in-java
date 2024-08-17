@@ -24,6 +24,6 @@ class c2 {
         c1.milage=milage;
         c1.name=name;
         //showing result what it gives
-        System.out.println("Price:"+c1.price+" "+"Name"+ c1.name+" "+"Mileage:"+c1.milage);
+        System.out.println("Price:"+c1.price+"  "+"Name:"+ c1.name+"  "+"Mileage:"+c1.milage);
     }
 }
