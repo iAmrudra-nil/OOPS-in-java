@@ -1,5 +1,6 @@
 class area{
     float rad;
+    /*we can create & use multiple constructor but they must be different from each other */
     area(){
         System.out.println("This is non-parameterized constructor");
     }
