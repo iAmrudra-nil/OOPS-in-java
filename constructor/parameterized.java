@@ -12,7 +12,7 @@ class area{
         System.out.println("Area of circle:"+3.14*rad*rad);
     }
 }
-public class parameterized {
+class parameterized {
     public static void main(String[] args) {
         area circle=new area();//non-parameterized constructor which have no parameter
         circle.rad=4f;

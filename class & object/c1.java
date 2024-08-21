@@ -1,6 +1,6 @@
 class dog{
-    //A class is an instance of object which have some methods and property.
-
+    //A class is defined as a collection of similar types objects. Or we can say that a class is a blueprint of an object.
+    //An object is an instance of a class.
     // Here dog is a class where dog have some attributes like weight and typs. 
     float weight = 15.0f;
     String types="Bull Dog";
