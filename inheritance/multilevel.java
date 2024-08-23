@@ -29,6 +29,7 @@ class sportscar extends car{
 }
 class multilevel {
     public static void main(String[] args) {
+        /*here car is derived from vehical class and sportscar is derived from car . It is the example of multilevel inheritance */
         sportscar obj1=new sportscar(12000000,"Ferrai" , 250);
         obj1.display();
     }
