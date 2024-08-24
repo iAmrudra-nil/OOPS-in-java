@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 //importing util java library class to execute Scanner class 
 class car{
     //car class have 3 properties of price,name,milage
