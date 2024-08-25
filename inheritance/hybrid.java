@@ -26,8 +26,10 @@ public class hybrid {
         dog d1=new dog();
         d1.kingdom();
         d1.Class();
+        d1.type();
         cat c1=new cat();
         c1.kingdom();
         c1.Class();
+        c1.type();
     }
 }
