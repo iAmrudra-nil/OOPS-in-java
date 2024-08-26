@@ -11,7 +11,6 @@ class c2 {
         car c1=new car();//making an object of car class
 
         Scanner sc=new Scanner(System.in);//scanner class object to take input from user
-
         System.out.print("Enter car price:");
         float price=sc.nextFloat();
         System.out.print("Enter car name:");

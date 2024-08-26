@@ -15,7 +15,6 @@ class car{
         System.out.println("This is car class of:"+name);
     }
 }
-
 class definition {
     public static void main(String args[]){
         car c1=new car();
