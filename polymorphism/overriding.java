@@ -16,10 +16,10 @@ class seargeant extends doctor{
 }
 class overriding {
     public static void main(String[] args) {
-       doctor d1=new seargeant();/*we can make an instance variable of parent class by calling the child class object
+       doctor d1=new seargeant();/*we can make an instance  of parent class through child class constructor
                                  but vice versa is not possible as child has no access to call parent*/
-        d1.department();//but in the runtime memory allocation time child class method override parent class method
-        //so our result should be--> 
+        d1.department();//In runtime memory allocation time child class method override parent class method
+        //so our result should be--> This is sergeant department of doctor.. 
             
     }
 }
