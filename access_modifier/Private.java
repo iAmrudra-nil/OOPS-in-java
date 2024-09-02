@@ -3,7 +3,7 @@
  * or private attributes out of that class it has no scpoe.
  */
  class Private {
-    private  int a=67;
+    private  static int a=67;
     private static void display(){
         System.out.println("This is private method..");
     }

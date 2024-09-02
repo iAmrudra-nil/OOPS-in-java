@@ -22,7 +22,8 @@ class  std{
 class definition{
     public static void main(String[] args) {
         std s1=new std();//it calls non parameterized constructor
-        std s2=new std("Rudra", 8.6f);
+        std s2=new std("Rudra", 8.6f);//it is parameterized constructor
+        System.out.println(s2.name);
     }
 }
 

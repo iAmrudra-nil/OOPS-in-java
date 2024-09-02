@@ -13,7 +13,7 @@ class def{
         d ob1=new d();
         System.out.println(ob1.a);
         System.out.println(ob1.b);
-        //System.out.println(ob1.n);it gives error as private variables does not inherit
+        //System.out.println(ob1.n);it gives error as private variables or method  does not inherit to subclass
 
     }
 }
