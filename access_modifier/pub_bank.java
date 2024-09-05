@@ -2,10 +2,10 @@
  * access by same class and same package and as well as different package class also.
  */
 
-public class bank{
+public class pub_bank{
         public int id;
         public String b_name;
-        bank(int id,String name){
+        pub_bank(int id,String name){
             this.id=id;
             this.b_name=name;
         }
@@ -18,7 +18,7 @@ public class bank{
         }
 
         public static void main(String[] args) {
-            bank sbi=new bank(23,"Tamluk");
+            pub_bank sbi=new pub_bank(23,"Tamluk");
             sbi.interest();
             sbi.displaydetails();
        
