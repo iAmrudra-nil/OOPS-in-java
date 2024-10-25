@@ -10,6 +10,7 @@
  *      4.hierarchical inheritance
  *      5.hybrid inheritance
 */
+import pkg.*;
 class animal{
     String type;
     void eat(){
